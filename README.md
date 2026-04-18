@@ -1,59 +1,56 @@
-# Superapp
+# SuperApp 🚀
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+SuperApp is a versatile, "Swiss Army Knife" web application designed to host a growing collection of essential daily tools and calculators in one unified, secure, and beautiful interface. 
 
-## Development server
+Currently built with **Angular 21** and **Tailwind CSS v4**, this project provides quick, client-side tools without relying on external servers for data processing, ensuring maximum privacy and speed.
 
-To start a local development server, run:
+## Features ✨
 
-```bash
-ng serve
-```
+### 🏦 Financial Tools
+A comprehensive suite of financial calculators built to help you track, plan, and analyze your investments and obligations.
+- **Credit Card Tracker**: A secure, encrypted vault (using Web Crypto API AES-GCM 256) to track credit card billing cycles and payment due dates locally. Includes browser notifications.
+- **Simple & Compound Interest Calculators**: Visualize exponential growth over time with interactive charts.
+- **SIP Calculator**: Plan your Systematic Investment Plan returns.
+- **SWP Calculator**: Track corpus depletion against systematic withdrawals.
+- **FD Calculators (TDR & STDR)**: Model Fixed Deposits with both periodic payouts and cumulative compounding.
+- **RD Calculator**: Calculate maturity values for Recurring Deposits.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+*(More daily utilities and tools will be added continuously to serve as a one-stop app for common tasks.)*
 
-## Code scaffolding
+## Tech Stack 🛠️
+- **Framework**: [Angular 21](https://angular.dev/) (Standalone Components, Signals)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Charts**: [Chart.js](https://www.chartjs.org/) for rich data visualization
+- **Security**: Native Web Crypto API for zero-knowledge local storage encryption.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Getting Started 💻
 
-```bash
-ng generate component component-name
-```
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [pnpm](https://pnpm.io/) (or npm/yarn)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Installation
+1. Clone the repository:
+   \`\`\`bash
+   git clone https://github.com/gauravk268/superwebapp.git
+   \`\`\`
+2. Navigate into the project directory:
+   \`\`\`bash
+   cd superapp
+   \`\`\`
+3. Install dependencies:
+   \`\`\`bash
+   pnpm install
+   \`\`\`
 
-```bash
-ng generate --help
-```
+### Running Locally
+To start the development server and make it accessible across your local network:
+\`\`\`bash
+pnpm start
+\`\`\`
+*Note: The start script is pre-configured to bind to \`0.0.0.0\`, making it easily testable on your mobile devices connected to the same LAN.*
 
-## Building
+Navigate to \`http://localhost:4200/\` to view the app!
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Contributing 🤝
+This project is continuously evolving. Feel free to open issues or submit pull requests for new daily-life tools or calculators!
